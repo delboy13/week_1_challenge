@@ -20,8 +20,7 @@ User 1.a
 
 As a staff member,
 I would like to be able to view and amend a customer booking,
-So, I can print the customers tickets and make amendment
- 
+So, I can print the customers tickets and make amendment 
 
 
 Acceptance Criteria    
@@ -29,6 +28,8 @@ Given, the staff member is on the customers profile,
 When they select the booking, 
 And the staff member chooses an option to amend or print from the drop-down list,
 Then the staff member will be taken to the page to amend a member booking or print off ticket.
+
+Time Estimation = 2
 
 
 User 1.b
@@ -45,5 +46,12 @@ When, the staff member wants to book a ticket or tickets for the user
 And, can see availability of seats and films
 And clicks amend button
 Then, the staff member will be able to show the user what screens and films are available and be able amend the booking.
+
+Time Estimation = 3
+
+
+Time Estimation key:
+1,2,3,5,8
+
 
 
