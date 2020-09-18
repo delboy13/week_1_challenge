@@ -151,9 +151,23 @@ As a user,
 I would like to review my booking,
 So that I can confirm my booking choices before committing.
 
-Acceptance criteria 1.K
+Acceptance criteria 1.L
 
 Given, the user has selected how to receive their confirmation and tickets
 When, they have reviewed the booking information
 And click confirm,
 Then, they are asked to submit a final confirmation of their booking
+
+User story 1.L
+
+As a user,
+I would like to confirm my booking, 
+So that I can make a booking.
+
+Acceptance criteria 1.b
+
+Given, the user has reviewed the booking details
+When, they are happy with booking information
+And click Book
+Then, they are sent confirmation and their tickets. tickets 
+
