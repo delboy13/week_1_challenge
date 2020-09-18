@@ -1,0 +1,28 @@
+EPIC 3
+As an admin user, 
+I would like to be able to have control over systems developed
+So that I can manage access and privileges of staff members
+
+User 1.a
+As an admin user, 
+I would like to be able to reset a staff members password to staff portal
+So that I can reset a password if forgotten
+
+Acceptance Criteria
+Given, I am on the staff portal admin page and on the staff member profile 
+when - the staff member has forgotten what password, they've set for their account
+And uses the password reset link
+And I click the reset button
+Then this will reset their password
+
+
+User 1.b
+As an admin 
+I need to be able to control what access users and staff members have, 
+So that I can allocate the correct access rights to the right staff members
+
+Acceptance Criteria
+Given I am on the admin suite,
+When the staff member needs to access a certain part of the website or portal/ or needs to change or update their access and privileges
+And be able to request for permissions / privileges to be changed
+Then I will be able to change or give certain access and privileges
