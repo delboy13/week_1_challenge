@@ -1,0 +1,49 @@
+EPIC – Booking/management
+
+As a Staff member,
+I would like to login to a staff member portal,
+So that I can view or create booking information.
+
+I would like to be able to see the booking confirmations of users, 
+So that I can find and print the relevant tickets.
+
+      
+Acceptance Criteria    
+Given, the staff member is on the staff member portal
+When the staff member selects a customer’s account
+And the staff member chooses an option from the drop-down list,
+And selects an action
+Then they can print the customers tickets or amend the details,
+
+
+User 1.a
+
+As a staff member,
+I would like to be able to view and amend a customer booking,
+So, I can print the customers tickets and make amendment
+ 
+
+
+Acceptance Criteria    
+Given, the staff member is on the customers profile,
+When they select the booking, 
+And the staff member chooses an option to amend or print from the drop-down list,
+Then the staff member will be taken to the page to amend a member booking or print off ticket.
+
+
+User 1.b
+
+See seat availability/seat location – 
+As a staff member 
+I would like to be able to see what seats are available, 
+So that I can make sure the user gets the choice in booking seats.
+
+Acceptance Criteria    
+
+Given - The staff member is on the amendment page,
+When, the staff member wants to book a ticket or tickets for the user
+And, can see availability of seats and films
+And clicks amend button
+Then, the staff member will be able to show the user what screens and films are available and be able amend the booking.
+
+
