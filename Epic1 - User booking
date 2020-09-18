@@ -32,6 +32,8 @@ Given, the user is on the booking page,
 When, they select a movie from the drop-down list,
 Then, they are asked to select an available date.
 
+Time Estimation = 1
+
 User story 1.B
 
 As a user, 
@@ -44,6 +46,8 @@ Given, the user has selected a movie
 When, they select from the available dates,
 And click confirm 
 Then, they are asked to select an available time.
+
+Time Estimation = 1
 
 User story 1.C
 
@@ -59,6 +63,8 @@ And click confirm
 Then, they are asked to select a seat
 User story 1.D
 
+Time Estimation = 1
+
 As a user,
 I would like to select a seat, 
 So I can make a booking to see a film and sit where I want when watching the movie.
@@ -69,6 +75,8 @@ Given, the user has selected an available time,
 When, they select a seat
 And click confirm
 Then, they are asked to select a ticket type
+
+Time Estimation = 1
 
 User story 1.E
 
@@ -83,6 +91,8 @@ When, they select a ticket type
 And click confirm 
 Then, they are asked to select the number of tickets
 
+Time Estimation = 1
+
 User story 1.F
 
 As a user, 
@@ -95,6 +105,9 @@ Given, the user has selected the ticket type
 When, they select the number of seats
 And click confirm
 Then, they are asked to enter their details
+
+Time Estimation = 1
+
 User story 1.G
 
 As a user, 
@@ -107,6 +120,9 @@ Given, the user selected the number of seats
 When, they enter their details
 And click confirm
 Then, they are asked to enter their card details
+
+Time Estimation = 3
+
 User story 1.H
 
 As a user, 
@@ -120,6 +136,7 @@ When, they enter their card details
 And click confirm
 Then, they are asked to select how to receive confirmation and tickets
 
+
 User story 1.I
 
 As a user,
@@ -130,7 +147,9 @@ Acceptance criteria 1.I
 Given, the user has reviewed the booking details
 When, they are happy with booking information
 And click Book
-Then, they are sent confirmation and their tickets. tickets 
+Then, they are sent confirmation and their tickets.
+
+Time Estimation = 2
 
 User story 1.J
 
@@ -145,6 +164,8 @@ When, the select from the drop-down menu how to receive confirmation and tickets
 And click confirm
 Then, they are asked to review the booking
 
+Time Estimation = 2
+
 User story 1.K
 
 As a user, 
@@ -158,16 +179,24 @@ When, they have reviewed the booking information
 And click confirm,
 Then, they are asked to submit a final confirmation of their booking
 
+Time Estimation = 2
+
 User story 1.L
 
 As a user,
 I would like to confirm my booking, 
 So that I can make a booking.
 
-Acceptance criteria 1.b
+Acceptance criteria 1.L
 
 Given, the user has reviewed the booking details
 When, they are happy with booking information
 And click Book
 Then, they are sent confirmation and their tickets. tickets 
+
+Time Estimation = 5
+
+
+Time Estimation key
+1,2,3,5,8
 
