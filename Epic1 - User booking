@@ -1,0 +1,159 @@
+Epic 1 - Make a booking
+
+As a user, 
+I would like to make a booking, 
+So that I can see a movie.
+
+Acceptance criteria
+
+Given, the user is on the booking page, 
+When they select a movie, 
+And they choose a date, 
+And they choose a time,
+And they choose a seat,
+And they choose a ticket type, 
+And they choose the number of tickets, 
+And they enter their details, 
+And they enter their card details,
+And they choose how to receive their confirmation and tickets,
+And they choose to review the booking,
+And they click “confirm”,
+Then, they are sent confirmation by text or email with their tickets.
+
+User story 1.A
+
+As a user, 
+I would like to select a movie, 
+So that I can make a booking to see a movie of my choice.
+
+Acceptance criteria 1.A
+
+Given, the user is on the booking page,
+When, they select a movie from the drop-down list,
+Then, they are asked to select an available date.
+
+User story 1.B
+
+As a user, 
+I would like to select a date,
+So that I can make a booking to see a film on the day of my choice.
+
+Acceptance criteria 1.B
+
+Given, the user has selected a movie
+When, they select from the available dates,
+And click confirm 
+Then, they are asked to select an available time.
+
+User story 1.C
+
+As a user, 
+I would like to select a time,
+So that I can make a booking for my chosen film at the time of my choice.
+
+Acceptance criteria 1.C
+
+Given, the user has selected an available date,
+When, the select from the available times
+And click confirm
+Then, they are asked to select a seat
+User story 1.D
+
+As a user,
+I would like to select a seat, 
+So I can make a booking to see a film and sit where I want when watching the movie.
+
+Acceptance criteria 1.D
+
+Given, the user has selected an available time,
+When, they select a seat
+And click confirm
+Then, they are asked to select a ticket type
+
+User story 1.E
+
+As a user, 
+I would like to select a ticket type,
+So that I can make the booking to cater for my needs.
+
+Acceptance criteria 1.E
+
+Given, the user has selected an available seat
+When, they select a ticket type
+And click confirm 
+Then, they are asked to select the number of tickets
+
+User story 1.F
+
+As a user, 
+I would like to select the number of tickets, 
+So that I can make a booking for more than one person at the same time.
+
+Acceptance criteria 1.F
+
+Given, the user has selected the ticket type
+When, they select the number of seats
+And click confirm
+Then, they are asked to enter their details
+User story 1.G
+
+As a user, 
+I would like to enter my details, 
+So that I can make a booking
+
+Acceptance criteria 1.G
+
+Given, the user selected the number of seats
+When, they enter their details
+And click confirm
+Then, they are asked to enter their card details
+User story 1.H
+
+As a user, 
+I would like to enter my card details, 
+So that I can make a booking
+
+Acceptance criteria 1.H
+
+Given, the user has entered in their details
+When, they enter their card details
+And click confirm
+Then, they are asked to select how to receive confirmation and tickets
+
+User story 1.I
+
+As a user,
+I would like to confirm my booking, 
+So that I can make a booking.
+Acceptance criteria 1.I
+
+Given, the user has reviewed the booking details
+When, they are happy with booking information
+And click Book
+Then, they are sent confirmation and their tickets. tickets 
+
+User story 1.J
+
+As a user, 
+I would like to select the way I receive my ticket and confirmation, 
+So that I receive a text or email with my ticket.
+
+Acceptance criteria 1.J
+
+Given, the user has entered their card details
+When, the select from the drop-down menu how to receive confirmation and tickets,
+And click confirm
+Then, they are asked to review the booking
+
+User story 1.K
+
+As a user, 
+I would like to review my booking,
+So that I can confirm my booking choices before committing.
+
+Acceptance criteria 1.K
+
+Given, the user has selected how to receive their confirmation and tickets
+When, they have reviewed the booking information
+And click confirm,
+Then, they are asked to submit a final confirmation of their booking
